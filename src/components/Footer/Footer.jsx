@@ -16,10 +16,10 @@ export const Footer = () =>{
                     <li className="if-link" style={{gridColumn: "1/-1"}}>📄<span>Terminos y condiciones</span>›</li>
                 </ul>  
             </nav>
-            <div style={{fontSize:"10px",color:"#555", marginBottom:"10px"}}>
+            <div style={{fontSize:"12px",color:"#555", marginBottom:"10px"}}>
                 Sin pago online · Pagas al recibir · Para que te quedes tranquilo 😌 · CABA · Buenos Aires
             </div>
-            <div style={{color:"#2a2a2a"}}>
+            <div style={{color:"#00059a93"}}>
                 © 2026 · Todos los derechos reservado · Developer @Dev_Damian_Krujoski
             </div>
             

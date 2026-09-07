@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #050505f0;
+    /* backdrop-filter: blur(10px); */
+    padding: 8px 15px;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    border-bottom: 2px solid #191919;
+
+}
+
+header p {
+    background-color: #02068686;
+    border-radius: 10px;
+    border: 2px solid #4a4caa;
+    color: #fff;
+    padding: 8px 8px;
+
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+header span{
+    color: #00059a;
+}
