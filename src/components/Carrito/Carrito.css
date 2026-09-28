@@ -1,0 +1,11 @@
+.cart-prox {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: var(--muted);
+    color: var(--verde-brillante);
+    font-size: 35px;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: .5px;
+}

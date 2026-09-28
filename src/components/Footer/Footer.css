@@ -3,9 +3,9 @@
     font-size: 12px;
     text-align: center;
 
-    border-top: 1px solid #484848;
+    border-top: 1px solid var(--azulElectricoApagado);
     margin-top: auto;
-    padding: 1.1rem 1.25rem;
+    padding: 1rem 1.25rem;
 }
 
 .container-brand{
@@ -13,14 +13,13 @@
     padding: 10px 0;
     text-transform: uppercase;
     font-family: "Montserrat";
-    font-weight: 800;
+    font-weight: 900;
     font-size: 1rem;
     letter-spacing: 3px;
 }
 
 .container-brand span {
-    color: #00059a;
-    font-weight: bold;
+    color: var(--azulElectrico);
 }
 
 .footer-nav-items{
@@ -50,5 +49,96 @@
 
 .if-link:hover{
     background-color: #1f1f1f;
-    border: 1px solid #1e1e1e5d;
+    border: 1px solid var(--azulElectricoApagado);
+}
+
+
+/*=========================== Modales =========================== */
+.tf-overlay{
+    position: fixed;
+    inset: 0; /* top, right, bottom, left */
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 200;
+    opacity: 0;
+    visibility: hidden;
+    transition:  
+    opacity 0.4s ease-in-out,
+    visibility 0.4s ease-in-out;
+    /* animation: desaparecer 0.3s ease-in-out; */
+}
+
+.tf-overlay-open{
+    opacity: 1;
+    visibility: visible;
+}
+
+.tf-modal{
+    width: 500px;
+    max-width: 90%;
+
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    background-color: #0f0f0f;
+    color: #fff;
+    border: 1.5px solid var(--borderCard);
+    border-radius: 10px 10px 0 0;
+    transform: translateY(0px);
+    transition: transform 0.3s ease;
+}
+
+.tf-overlay-open .modal {
+    transform: translateY(0);
+}
+.tf-header {
+    display: flex;
+    padding: 8px 15px;
+    align-items: center;
+    border-bottom: 1.5px solid var(--borderCard);
+    font-size: 12px;
+    font-family: "Montserrat";
+    font-weight: 800;
+    text-transform: uppercase;
+    justify-content: flex-end;
+}
+.tf-header button{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    background-color: #1e1e1e;
+    border-radius: 50%;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.tf-body{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 10px 15px;
+    font-size: 13px;
+}
+.tf-h{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Montserrat";
+    color: var(--azulClaro);
+}
+
+.tf-p{
+    text-align:justify ;
+    color: #888;
+    line-height: 1.7;
+    overflow-y: auto;
+}
+
+.tf-p strong{
+    color: #fff;
 }

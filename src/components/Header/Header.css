@@ -4,21 +4,22 @@
     align-items: center;
     justify-content: space-between;
     background-color: #050505f0;
-    /* backdrop-filter: blur(10px); */
+    backdrop-filter: blur(10px);
     padding: 8px 15px;
     top: 0;
     width: 100%;
     z-index: 100;
-    border-bottom: 2px solid #191919;
+    border-bottom: 2px solid var(--azulElectricoApagado);
 
 }
 
-header p {
-    background-color: #02068686;
+.marca{
+    background-color: var(--azulElectricoApagado);
     border-radius: 10px;
-    border: 2px solid #4a4caa;
+    border: 2px solid var(--azulElectrico);
     color: #fff;
     padding: 8px 8px;
+    text-decoration: none;
 
     font-family: "Montserrat";
     font-style: italic;
@@ -29,5 +30,5 @@ header p {
 }
 
 header span{
-    color: #00059a;
+    color: var(--azulElectrico);
 }

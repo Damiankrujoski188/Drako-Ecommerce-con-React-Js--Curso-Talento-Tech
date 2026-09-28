@@ -1,5 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --azulElectrico: #0028B3;
+    --azulElectricoApagado: #0027b39a;
+    --azulClaro :#1b46e0 ;
+    
+    --primary-color: #049d48;
+    --secondary-color: #0a618b;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    /* --info-color: #17a2b8; */
+    --light-color: #f8f9fa;
+    --white-color: #fff;
+    --dark-color: #010304;
+
+    --verde: #1E9E4C;
+    --verde-oscuro: #167A3B;
+    --verde-brillante: #66FF00;
+    --navy: #0F2438;
+    --navy-2: #16324A;
+
+    --borderCard : #222;
+    --black: #080808;
+    --white: #f2f1ed;
+    --gray: #141414;
+    --gray2: #1e1e1e;
+    --gray3: #2e2e2e;
+    --muted: #666;
+    --wsp: #25D366;
+    --accent: #d4ff00;
+    
+}
+
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +41,14 @@
 }
 
 body{
-    background-color: #050505;
+    background-color: var(--dark-color);
     font-family: 'Roboto', sans-serif;
 }
+
+
+
+/* @media (max-width: 480px) {
+  .productos-grid {
+    grid-template-columns: 1fr;
+  }
+} */
