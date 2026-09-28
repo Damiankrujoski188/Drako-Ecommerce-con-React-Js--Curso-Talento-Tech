@@ -5,7 +5,7 @@
     "descripcion": "Campera Para Hombre Nike Club Negro",
     "precio": "18.500",
     "talles": ["S", "M", "L", "XL"],
-    "imagen": "/img/img-1.png",
+    "imagen": "img/img-1.png",
     "categoria": "Remeras"
   },
   {
@@ -14,7 +14,7 @@
     "descripcion": "Buzo Nike Para Hombre Club Moda Negro",
     "precio": "18.500",
     "talles": ["S", "M", "L", "XL"],
-    "imagen": "/img/img-2.png",
+    "imagen": "img/img-2.png",
     "categoria": "Buzos"
   },
   {
@@ -23,7 +23,7 @@
     "descripcion": "Short Fútbol Hombre Nike Dri-fit Negro Bv6855-010",
     "precio": "42.000",
     "talles": ["S", "M", "L", "XL"],
-    "imagen": "/img/img-3.png",
+    "imagen": "img/img-3.png",
     "categoria": "Shorts"
   },
   {
@@ -32,7 +32,7 @@
     "descripcion": "Gorra Jordan Blanca ajustable cod-100.",
     "precio": "45.000",
     "talles": ["M", "L", "XL", "XXL"],
-    "imagen": "/img/img-4.png",
+    "imagen": "img/img-4.png",
     "categoria": "Gorras"
   },
   {
@@ -41,7 +41,7 @@
     "descripcion": "Zapatillas Nike Infinity G Golf Caballero. Golflab",
     "precio": "52.000",
     "talles": ["38", "40", "42", "44", "46"],
-    "imagen": "/img/img-5.png",
+    "imagen": "img/img-5.png",
     "categoria": "Zapatillas"
   },
   {
@@ -50,7 +50,7 @@
     "descripcion": "Pantalón Nike Sportswear Club French Terry Joggers",
     "precio": "54.000",
     "talles": ["38", "40", "42", "44", "46"],
-    "imagen": "/img/img-6.png",
+    "imagen": "img/img-6.png",
     "categoria": "Pantalones"
   },
   {
@@ -59,7 +59,7 @@
     "descripcion": "Remera Nike Para Hombre Blanco 100",
     "precio": "58.000",
     "talles": ["36", "38", "40", "42", "44"],
-    "imagen": "/img/img-7.png",
+    "imagen": "img/img-7.png",
     "categoria": "Remeras"
   },
   {
@@ -68,7 +68,7 @@
     "descripcion": "Buzo Nike Sportswear Club Para Hombre 613.",
     "precio": "56.000",
     "talles": ["36", "38", "40", "42", "44"],
-    "imagen": "/img/img-8.png",
+    "imagen": "img/img-8.png",
     "categoria": "Buzos"
   },
   {
@@ -77,7 +77,7 @@
     "descripcion": "Shorts Nike Totality Para Hombre Verde Fb4196-320",
     "precio": "68.000",
     "talles": ["S", "M", "L", "XL"],
-    "imagen": "/img/img-9.png",
+    "imagen": "img/img-9.png",
     "categoria": "Shorts"
   },
   {
@@ -86,7 +86,7 @@
     "descripcion": "Campera Nike Sportswear Club Para Hombre Gris 068",
     "precio": "62.000",
     "talles": ["S", "M", "L", "XL"],
-    "imagen": "/img/img-10.png",
+    "imagen": "img/img-10.png",
     "categoria": "Camperas"
   }
 ]
