@@ -4,7 +4,7 @@ export const Item = ({nombre, descripcion, precio, imagen, categoria, children }
     return (
         <article className="cards">
             <div className="card-img">
-                <img src={imagen} alt={nombre}/>
+                <img src={`${import.meta.env.BASE_URL}${imagen}`} alt={nombre}/>
             </div>
 
             <div className="card-body">

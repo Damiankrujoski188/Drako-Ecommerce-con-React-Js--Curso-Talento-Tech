@@ -15,7 +15,7 @@ export const ItemDetailContainer = () => {
         // setLoading(true)
         // setErrors(null)
 
-        fetch("/data/productos.json")
+        fetch(`${import.meta.env.BASE_URL}data/productos.json`)
             .then( res =>{ 
                 if(!res.ok){
                     throw new Error("Error al obtener el detalle de producto");
