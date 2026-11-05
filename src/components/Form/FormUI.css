@@ -1,0 +1,194 @@
+/* section */
+.contact {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 50px 20px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    width: 100%;
+    max-width: 500px;
+
+    padding: 30px;
+    color:var(--white);
+    /* word-break: break-all; */
+    
+    border: 1px solid var(--borderCard);
+    background-color: var(--backgroundCards);
+    border-radius: var(--borderRadius);
+    
+}
+/* div */
+
+.form-header{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    width: 100%;
+    
+}
+.form-header h2 {
+    font-family: var(--font-title);
+    font-size: 2rem;
+    /* width: 100%; */
+    /* color: var(--azulClaro); */
+    text-transform: uppercase;
+}
+.form-header p {
+    font-family: "Bebas Neue";
+    color: var(--muted);
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: .2px;
+    text-transform: uppercase;
+}
+
+/* form */
+.form-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    /* border: 2px solid red; */
+    width: 100%;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 7px;
+}
+.form-group label {
+    font-family: var(--font-title);
+    letter-spacing: .2px;
+    font-weight: 600;
+}
+.form-group input,
+.form-group textarea {
+    padding: 10px 12px;
+    font-size: 15px;
+    border-radius: 7px;
+    border: 2px solid var(--borderCard);
+    font-family: var(--font-title);
+    letter-spacing: 1px;
+    outline: none;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    background-color: var(--muted);
+    color: var(--white);
+}
+.form-group textarea {
+    height: 100px;
+    resize: vertical;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+    /* border-color: var(--muted); */
+    box-shadow: 0 0 5px var(--muted)
+}
+
+.form-actions {
+    margin-top: 10px ;
+    display: flex;
+    gap: 10px;
+}
+.form-errors{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px 12px;
+    background-color: var(--red-grisaceo);
+    border: 1px solid var(--red-color-primary);
+    border-radius: 8px;
+    width: 100%;
+    color: var(--red-color-secondary);
+    font-family: 'Inter';
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+
+
+.btn-submit {
+    background-color: var(--btn-submit-background);
+    color: var(--white);
+    transition: 0.2s ease-in-out;
+    border: 1px solid var(--btn-submit-background);
+}
+.btn-submit:hover {
+    background-color: var(--btn-submit-hover);
+    border: 1px solid var(--btn-submit-hover);
+}
+
+.btn-reset {
+    background-color: var(--btn-reset-background);
+    color: var(--white);
+    transition: 0.2s ease-in-out;
+    border: 1px solid var(--btn-reset-background);
+}
+.btn-reset:hover {
+    background-color: var(--btn-reset-hover);
+    border: 1px solid var(--btn-reset-hover);
+}
+
+.modal-success {
+    position: fixed;
+    inset: 0;
+    
+    background-color: rgba(0, 0, 0, 0.7);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    z-index: 1000;
+    animation: aparecer 0.3s ease;
+}
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: "Bebas Neue";
+    background-color: var(--backgroundCards);
+    border: 2px solid var(--borderCard);
+    border-radius: var(--borderRadius);
+    padding: 25px 12px;
+    animation: subir 0.3s ease;
+}
+
+.modal-content h5 {
+    color: var(--verde-color-primary);
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+}
+.modal-content p {
+    
+    color: var(--muted);
+    letter-spacing: 1px;
+    color: var();
+
+}
+
+@keyframes aparecer {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes subir {
+    from { 
+        opacity: 0; 
+        transform: translateY(15px);
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0);
+    }
+}

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap');
 :root{
     --azulElectrico: #0028B3;
     --azulElectricoApagado: #0027b39a;
@@ -21,15 +21,32 @@
     --navy: #0F2438;
     --navy-2: #16324A;
 
+    --backgroundCards: #151515 ;
     --borderCard : #222;
+    --font-title: "Roboto Condensed" ;
     --black: #080808;
-    --white: #f2f1ed;
+    --white: #f4f4f4;
     --gray: #141414;
     --gray2: #1e1e1e;
     --gray3: #2e2e2e;
     --muted: #666;
     --wsp: #25D366;
     --accent: #d4ff00;
+
+    --btn-submit-background: #2563EB;
+    --btn-reset-background: #374151;
+    
+    --btn-submit-hover: #1D4ED8 ;
+    --btn-reset-hover: #4B5563;
+    
+
+    --borderRadius: 14px;
+    --red-background: #fadcdc;
+    --red-color-primary: #DC2626;
+    --red-color-secondary: #F87171;
+    --red-grisaceo: #241719;
+    --verde-color-primary:  #38704f ;
+    --verde-color-secondary:  #b3fbcb ;
     
 }
 
@@ -38,6 +55,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    overflow-wrap: break-word;
 }
 
 body{
@@ -46,9 +64,3 @@ body{
 }
 
 
-
-/* @media (max-width: 480px) {
-  .productos-grid {
-    grid-template-columns: 1fr;
-  }
-} */

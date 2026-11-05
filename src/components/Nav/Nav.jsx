@@ -11,9 +11,9 @@ export const Nav = () => {
                     <Link to={"/"} className="btn default">Home</Link>
                 </li>
 
-                {/* <li>
+                <li>
                     <Link to={"/contacto"} className="btn default">Contacto</Link>
-                </li> */}
+                </li>
 
                 {/* <li>
                     <a className="btn wsp" href="https://wa.me/541138921872?text=Hola%2C%20quiero%20hacer%20una%20consulta..." target="_blank" rel="noopener noreferrer" >

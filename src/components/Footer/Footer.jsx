@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../Footer/Footer.css";
+import brand from "../../assets/drako_brand.png";
 
 export const Footer = () => {
     const [modalOpen, setModalOpen] = useState(false);
@@ -13,8 +14,8 @@ export const Footer = () => {
 
     return(
         <footer className="footer">
-            <div className="container-brand">
-                Drako.<span>Store</span>
+            <div className="ft-brand">
+                <img src={brand} alt="DrakoStore" />
             </div>
 
             <nav className="footer-nav">
@@ -33,6 +34,7 @@ export const Footer = () => {
             <div className={`tf-overlay ${modalOpen ? "tf-overlay-open": ""}`}>
                 <div className="tf-modal">
                     <div className="tf-header"><button onClick={() => setModalOpen(false)}>✕</button></div>
+                    
                     {modalContent === "quienes" &&(
                         <div className="tf-body">   
                             <h4 className="tf-h">🏪 Quiénes somos</h4>
