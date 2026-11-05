@@ -170,10 +170,9 @@
     letter-spacing: 2px;
 }
 .modal-content p {
-    
     color: var(--muted);
     letter-spacing: 1px;
-    color: var();
+    color: var(--muted);
 
 }
 
